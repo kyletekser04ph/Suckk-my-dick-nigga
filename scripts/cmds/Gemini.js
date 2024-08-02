@@ -65,7 +65,7 @@ module.exports = {
      
       api.setMessageReaction("✅", event.messageID, () => { }, true);
       message.reply({
-        body: `${name}, ${result}`,
+        body: `hello bro ${name} this is the 𝗿𝗲𝘀𝘂𝗹𝘁: ${result}`,
         mentions: ment,
       }, (err, info) => {
         global.GoatBot.onReply.set(info.messageID, {
