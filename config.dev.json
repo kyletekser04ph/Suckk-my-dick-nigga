@@ -31,7 +31,7 @@
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
 	"prefix": "×",
-	"nickname": "》 × 《 ❃ ➠ 𝙕𝙀𝙋𝙃_𝘽𝙊𝙏𝙑2 ᴷʸˡᵉ'ˢ ᴮᵒᵗ",
+	"nickNameBot": "》 × 《 ❃ ➠ 𝙕𝙀𝙋𝙃_𝘽𝙊𝙏𝙑2 ᴷʸˡᵉ'ˢ ᴮᵒᵗ",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -144,7 +144,6 @@
     "logLevel": "error",
     "selfListen": false,
     "selfListenEvent": true,
-    "autoreact": true, 
     "autoMarkDelivery": false,
     "autoReconnect": false,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
